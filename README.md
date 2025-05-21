@@ -1,9 +1,9 @@
-# RocketSeat - Desafio 01 - Agenda
+# RocketSeat - Python First Steps
 
 Projeto criado como forma de fixar e avaliar os conhecimentos obtidos no módulo 1: "Introdução ao Python".
 O [Desafio proposto](Desafio01.txt) foi criar uma agenda de contatos com algumas funcionalidades básicas.
 
-### Funcionalidades
+## Funcionalidades
 
 - Adicionar, editar e remover contatos;
 - Favoritar e desfavoritar contatos; e
@@ -18,10 +18,10 @@ O [Desafio proposto](Desafio01.txt) foi criar uma agenda de contatos com algumas
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/ShiniAkaiUsagi/rocketseat_python_first_steps.git
 
 # 2. Acesse a pasta do projeto
-cd rocketseat_python_challenge01
+cd rocketseat_python_first_steps
 
 # 3. Execute o script de build para preparar as ferramentas e ambiente
 sh scripts/build.sh
