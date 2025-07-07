@@ -56,7 +56,7 @@ def update_task(id):
             task = t
             break
 
-    if not task is None:
+    if not task:
         return (
             jsonify(
                 {"message": f"Não foi possível encontrar a atividade com o id {id}"}
@@ -94,4 +94,4 @@ def delete_task(id):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
