@@ -34,7 +34,8 @@ def get_tasks():
     return output
 
 
-# Sobre o uso do <int:id> https://flask.palletsprojects.com/en/stable/quickstart/#variable-rules
+# Sobre o uso do <int:id>
+# # https://flask.palletsprojects.com/en/stable/quickstart/#variable-rules
 @app.route("/tasks/<int:id>", methods=["GET"])
 def get_task(id):
     task = None
@@ -55,7 +56,7 @@ def update_task(id):
             task = t
             break
 
-    if task == None:
+    if not task is None:
         return (
             jsonify(
                 {"message": f"Não foi possível encontrar a atividade com o id {id}"}
